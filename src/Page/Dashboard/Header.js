@@ -5,7 +5,7 @@ export default function Header({setIsAdding}) {
     <header>
       <h1>Customer Management Software</h1>
       <div>
-        <button onClick={()=>setIsAdding(true)} className='round-button'>Add Button</button>
+        <button onClick={()=>setIsAdding(true)} className='round-button'>Add Customer</button>
       </div>
       </header>
   )
